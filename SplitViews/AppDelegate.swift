@@ -24,6 +24,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let splitViewController =  UISplitViewController()
         splitViewController.viewControllers = [masterNavigationController, detailNavigationController]
         splitViewController.preferredDisplayMode = UISplitViewController.DisplayMode.oneBesideSecondary
+        splitViewController.delegate = self
+        
+        splitViewController.preferredPrimaryColumnWidthFraction = 0.5
+        splitViewController.maximumPrimaryColumnWidth = 2000
         
         self.window = UIWindow(frame: UIScreen.main.bounds)
         self.window!.rootViewController = splitViewController
