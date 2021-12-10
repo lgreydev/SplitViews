@@ -8,11 +8,9 @@
 
 ### 📚 Resources
 
-[Habr](https://habr.com/ru/post/460965/)
-
-[Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/ios/views/split-views/)
-
-[Apple Developer](https://developer.apple.com/documentation/uikit/uisplitviewcontroller)
+[Habr](https://habr.com/ru/post/460965/)<br>
+[Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/ios/views/split-views/)<br>
+[Apple Developer](https://developer.apple.com/documentation/uikit/uisplitviewcontroller)<br>
 
 ### 🛡️ License
 
