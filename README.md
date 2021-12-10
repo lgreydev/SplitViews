@@ -1,11 +1,10 @@
 # Split Views
 
-## iPad
-  <img src="https://github.com/lgreydev/SplitViews/blob/main/Screenshot/001.jpg" width="250"><img src="https://github.com/lgreydev/SplitViews/blob/main/Screenshot/002.jpg" width="500">
+### iPad
+  <img src="https://github.com/lgreydev/SplitViews/blob/main/Screenshots/001.jpg" width="300"><img src="https://github.com/lgreydev/SplitViews/blob/main/Screenshots/002.jpg" width="300">
   
-## iPhone
-  <img src="https://github.com/lgreydev/SplitViews/blob/main/Screenshot/003.jpg" width="250"><img src="https://github.com/lgreydev/SplitViews/blob/main/Screenshot/004.jpg" width="500">
-
+### iPhone
+  <img src="https://github.com/lgreydev/SplitViews/blob/main/Screenshots/003.jpg" width="300"><img src="https://github.com/lgreydev/SplitViews/blob/main/Screenshots/004.jpg" width="300">
 
 ### 📚 Resources
 
