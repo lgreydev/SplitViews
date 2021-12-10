@@ -15,6 +15,12 @@ class DetailController: UIViewController {
         super.viewDidLoad()
         self.navigationItem.title = navigationTitle
         self.view.backgroundColor = .white
+        
+        if let splitController = self.splitViewController{
+           if let navController = splitController.viewControllers.last as? UINavigationController {
+              navController.topViewController?.navigationItem.leftBarButtonItem = splitController.displayModeButtonItem
+           }
+        }
     }
 }
 
