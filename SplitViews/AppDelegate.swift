@@ -14,6 +14,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
+        
         let masterController = MasterController()
         let masterNavigationController = UINavigationController(rootViewController: masterController)
 
@@ -22,6 +23,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
         let splitViewController =  UISplitViewController()
         splitViewController.viewControllers = [masterNavigationController, detailNavigationController]
+        splitViewController.preferredDisplayMode = UISplitViewController.DisplayMode.oneBesideSecondary
         
         self.window = UIWindow(frame: UIScreen.main.bounds)
         self.window!.rootViewController = splitViewController
@@ -32,3 +34,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 }
 
+extension AppDelegate: UISplitViewControllerDelegate {
+    func splitViewController(_ splitViewController: UISplitViewController, collapseSecondary secondaryViewController: UIViewController, onto primaryViewController: UIViewController) -> Bool {
+        return true
+    }
+}

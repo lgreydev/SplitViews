@@ -17,3 +17,4 @@ class DetailController: UIViewController {
         self.view.backgroundColor = .white
     }
 }
+
