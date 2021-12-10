@@ -8,10 +8,12 @@
 import UIKit
 
 class DetailController: UIViewController {
+    
+    var navigationTitle: String = "Detail"
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.navigationItem.title = "Detail"
-        self.navigationController?.navigationBar.prefersLargeTitles = true
+        self.navigationItem.title = navigationTitle
+        self.view.backgroundColor = .white
     }
 }

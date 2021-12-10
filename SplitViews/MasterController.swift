@@ -33,4 +33,10 @@ class MasterController: UITableViewController {
         cell.textLabel?.text = "\(indexPath)"
         return cell
     }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+       let controller = DetailController()
+       controller.navigationTitle = "\(indexPath)"
+       self.showDetailViewController(UINavigationController(rootViewController: controller), sender: nil)
+    }
 }
