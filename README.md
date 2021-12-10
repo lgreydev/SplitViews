@@ -1,6 +1,10 @@
 # Split Views
 
-   
+## iPad
+  <img src="https://github.com/lgreydev/SplitViews/blob/main/Screenshot/001.jpg" width="250"><img src="https://github.com/lgreydev/SplitViews/blob/main/Screenshot/002.jpg" width="500">
+  
+## iPhone
+  <img src="https://github.com/lgreydev/SplitViews/blob/main/Screenshot/003.jpg" width="250"><img src="https://github.com/lgreydev/SplitViews/blob/main/Screenshot/004.jpg" width="500">
 
 
 ### 📚 Resources
